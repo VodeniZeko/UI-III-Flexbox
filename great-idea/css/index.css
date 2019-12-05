@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+hr {
+	border-top: 2px solid black;
+	width: 82%;
+}
+.navigation {
+	width: 100%;
+	height: 10vh;
+	padding-top: 3%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.list {
+	width: 69%;
+	text-align: center;
+	
+}
+
+.list a {
+	margin: 0% 3% 0% 3%;
+	font-size: 1.3em;
+	opacity: 0.6; 
+	 filter: alpha(opacity = 60);
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+.logo {
+	width: 28;
+}
+
+.intro, .info, .img, .info-2 {
+	display: flex;
+	padding: 3% 1% 5% 1%;
+	justify-content: space-around;
+}
+
+h1 {
+	font-size: 6em;
+	text-align: center;
+}
+
+button {
+	border-radius: 1px;
+	font-size: 1.3em;
+	padding: 7px 55px 7px 55px;
+	border:1px solid black;
+	margin-left: 25%;
+}
+
+.inovation, .code {
+    height: 400px;
+ }
+
+.middle-img {
+
+}
+
+.info-one, .info-two {
+    height: 100px;
+    padding: 0% 4% 0% 4%;
+    margin: 0% 4% 0% 4%;
+    align-self: center;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+}
+.middle-img {
+	min-width: 83%;
+	height: auto;
+}
+
+.info-service, .info-product, .info-vision {
+	height: 150px;
+	padding: 0% 4% 0% 4%;
+    margin: 0% 4% 0% 4%;
+    align-self: center;
+
+}
+
+.contact {
+	height: 200px;
+	width: 20%;
+	padding-left: 9%;
+	padding-top: 3%;
+}
+
+address p {
+	line-height: 2em;
+}
+
+p {
+	line-height: 1.3em;
+}
+
+.end {
+	text-align: center;
+	margin:10%;
+}
