@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -175,6 +173,7 @@ p {
 h2 {
 	font-size: 2em;
 }
+
 .info-2-services {
 	display: flex;	
 	flex-wrap: wrap;
@@ -210,3 +209,7 @@ h2 {
 .services-info-img {
 	width: 100%;
 }
+ ul {
+	 margin: 4%;
+	 line-height: 2em;
+  }
